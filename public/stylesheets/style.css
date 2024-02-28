@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body{
+    color:whitesmoke;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100px;
+    padding:20px;
+    background: seagreen;
+    display:flex;
+    justify-content: space-between;
+    Z-index:100;
+}
+
+.logo{
+    font-size: 82px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+.navbar{
+    font-size: 19px;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color:pink
+}
